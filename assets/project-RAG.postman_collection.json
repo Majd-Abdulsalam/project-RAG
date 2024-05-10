@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "8fa32570-df9c-43e5-b21c-ba4c50ed37ec",
+		"name": "project-RAG",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34854384"
+	},
+	"item": [
+		{
+			"name": "weclome-request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "api",
+			"value": "http://127.0.0.1:8000",
+			"type": "string"
+		}
+	]
+}
