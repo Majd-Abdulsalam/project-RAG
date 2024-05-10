@@ -21,10 +21,24 @@ This is a project implementation of the RAG model for qestion answering
 $conda activate mini-rag
 ```
 
-
-
 ### (Optional) Setup you command line interface for better readability
 
 ```bash
 export PS1="\[\033[01;32m\]\u@\h:\w\n\[\033[00m\]\$ "
 ```
+
+## Installation
+
+### Install the required Packages
+
+```bash
+$ pip install -r requirements.txt
+```
+
+### Setup the environment variables
+
+```bash
+$ cp .env.example .env
+```
+
+Set your environment vaiables in the `.env`  file. Like `OPENAI_API_KEY`  value.
